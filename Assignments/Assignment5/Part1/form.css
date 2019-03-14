@@ -14,3 +14,6 @@ legend {
 input[type=checkbox] {
     margin-left: 25px;
 }
+#emailaddy {
+    min-width: 250px;
+}
