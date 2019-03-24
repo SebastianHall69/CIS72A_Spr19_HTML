@@ -1,0 +1,110 @@
+body {
+    background-color: gray;
+    color: rgb(60,60,60);/*Not quite black, just very dark gray*/
+}
+
+nav {
+    background-color: darkgray;
+    padding: 14px;
+}
+
+li {
+    text-align: left;
+}
+
+footer {
+    font-size: 60%;
+    color: lightgray;
+    text-align: center;
+    margin: 14px;
+}
+
+li.rec {
+    margin: 50px 14px;
+    background-color: lightgray;
+    padding: 14px;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 0px;
+    background-color: gray;
+}
+
+a:link {
+    color: rgb(50,50,50);
+}
+
+li a:hover {
+    background-color: darkgray;   
+}
+
+a:visited {
+    color: rgb(50,50,50);
+}
+
+img.recImg {
+    width: 325px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul#recList {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+ul#navList {
+    margin: 0px;
+    padding: 0px;
+    width: 60%;
+    list-style-type: none;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    min-height: 630px;
+
+}
+
+.twoColLayout:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sectionTitle {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: lightgray;
+}
+
+h1 {
+    padding: 14px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#banner {
+    width: 100%;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+#main {
+    width: 60%;
+    margin-left: 284px;
+    background-color: darkgray;
+    padding: 20px;
+}
+
+#resTable td {
+    vertical-align: top;
+    padding-right: 20px;
+}

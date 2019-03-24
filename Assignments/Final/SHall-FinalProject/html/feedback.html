@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sebastian Hall Final Project Feedback</title>
+    <link href="../css/layout.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/sitestyle.css" />
+    <!--Final Project by Sebastian Hall-->
+</head>
+
+<body>
+    <header>
+        <img id="banner" src="../images/banner.png" alt="Site banner" />
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <ul id="navList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="favlinks.html">Favorite Links</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="other.html">Recommendations</a></li>
+            <li>Feedback</li>
+        </ul>
+    </nav>
+
+    <!--Main body-->
+    <div id="main">
+        <h1>Sebastian Hall's Feedback Page</h1>
+        <p><img class="floatright" src="../images/want-feedback.png" alt="Want Feedback"></p>
+        <p>We welcome your thoughts! Please feel free to fill out our form below and send us your feedback.</p>
+
+        <!--Customer feedback form-->
+        <form action="response.html" method="get">
+
+            <!--Feedback section-->
+            <fieldset id="feedbackinfo">
+                <legend>Feedback Info</legend>
+                
+                <!--Comments textarea-->
+                <p>
+                    <label for="comments">Comments: </label>
+                    <textarea id="comments" rows="5" cols="40" name="comments" required="required" placeholder="**Required Entry**"></textarea>
+                </p>
+                
+                <!--Comment topic input-->
+                <p>
+                    <label for="re">Favorite Page in Site: </label>
+                    <select name="re" id="re">
+                        <option value="home">Home</option>
+                        <option value="favlinks">Favorite Links</option>
+                        <option value="resume">Resume</option>
+                        <option value="other">Other</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </p>
+            </fieldset>
+
+            <!--Contact information section-->
+            <fieldset id="contactinfo">
+                <legend>Contact Info</legend>
+                
+                <!--Name input-->
+                <p>
+                    <label for="nameTxt">Name: </label>
+                    <input id="nameTxt" type="text" name="name" required="required" placeholder="**Required Entry**" />
+                </p>
+                
+                <!--Contact options input-->
+                <p>
+                    How can we contact you?(Check all that apply)<br />
+                    <input type="checkbox" name="call" id="call" />
+                    <label for="call"> Call</label>
+                    <input type="checkbox" name="text" id="text" />
+                    <label for="text"> Text</label>
+                    <input type="checkbox" name="email" id="email" />
+                    <label for="email"> Email</label>
+                </p>
+                
+                <!--Phone number input-->
+                <p>
+                    <label for="phonenum">Phone: </label>
+                    <input type="tel" name="phonenum" id="phonenum" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="xxx-xxx-xxxx" title="xxx-xxx-xxxx" />
+                </p>
+                
+                <!--Email address input-->
+                <p>
+                    <label for="emailaddy">Email: </label>
+                    <input type="email" name="emailaddy" id="emailaddy" />
+                </p>
+            </fieldset>
+
+            <!--Form submission-->
+            <p><input type="submit" value="Send Feedback" /></p>
+        </form>
+
+        <!--Page footer-->
+        <footer>
+            <p>Copyright Sebastian Hall, all rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
